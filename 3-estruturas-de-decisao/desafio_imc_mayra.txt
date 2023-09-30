@@ -1,0 +1,54 @@
+﻿Função Principal
+    ... Calcular IMC 
+    ...  
+    ... A Organização Mundial de Saúde calcula o IMC - índice de massa corporal da seguinte forma: 
+    ...  
+    ... IMC = peso / (altura * altura) 
+    ...  
+    ... Elaborar um fluxograma que calcule o IMC de uma pessoa adulta e mostre a condição da mesma de acordo com os seguintes critérios: 
+    ...  
+    ... IMC (adultos)              Condição 
+    ...  
+    ... Abaixo de 18,5........... Você está abaixo do peso ideal 
+    ...  
+    ... Entre 18,5 e 24,9...... Peso normal 
+    ...  
+    ... Entre 25,0 e 29,9..... Sobrepeso 
+    ...  
+    ... Entre 30,0 e 34,9..... Obesidade grau I 
+    ...  
+    ... Entre 35,0 e 39,9..... Obesidade grau II 
+    ...  
+    ... 40,0 e acima.............. Obesidade grau III
+    Definir Real peso
+    Definir Real altura
+    Definir Real imc
+    
+    Saída "Informe o seu peso:"
+    Entrada peso
+    Saída "Informe a sua altura: "
+    Entrada altura
+    Atribuir imc = peso / (altura * altura)
+    Saída "O seu IMC é:" & imc
+    Se imc < 18.5
+        Saída "Você está abaixo do peso ideal"
+    Senão
+        Se imc <= 24.9
+            Saída "Peso normal"
+        Senão
+            Se imc <= 29.9
+                Saída "Sobrepeso"
+            Senão
+                Se imc <=34.9
+                    Saída "Obesidade grau I"
+                Senão
+                    Se imc <= 39.9
+                        Saída "Obesidade grau II"
+                    Senão
+                        Saída "Obesidade grau III"
+                    Fim
+                Fim
+            Fim
+        Fim
+    Fim
+Fim

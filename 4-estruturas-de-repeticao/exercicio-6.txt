@@ -1,0 +1,17 @@
+﻿Função Principal
+    ... Utilizando a estrutura de repetição PARA elabore um programa que receba 10 valores reais e calcule a média desses valores.
+    Definir Real valor
+    Definir Real acumuladorValor
+    
+    Atribuir acumuladorValor = 0
+    Definir Real media
+    Definir Inteiro contador
+    
+    Para contador = 1 até 10
+        Saída "Digite um valor real:"
+        Entrada valor
+        Atribuir acumuladorValor = acumuladorValor + valor
+    Fim
+    Atribuir media = acumuladorValor / 10
+    Saída "A média dos valores é: " & media
+Fim

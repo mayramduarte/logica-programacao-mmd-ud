@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 05:17:49 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMTI7IjA0OjQxOjAzICI7Mjc5MA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMTI7IjA1OjE3OjQ5ICI7NjsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Real" array="True" size="4"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="nota[0]" expression="9.5"/>
+            <assign variable="nota[1]" expression="4"/>
+            <assign variable="nota[2]" expression="6.8"/>
+            <assign variable="nota[3]" expression="8.7"/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="nota[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

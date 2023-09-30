@@ -1,0 +1,13 @@
+﻿Função Principal
+    ... Elabore um algoritmo que calcule a área de um triângulo.  Considere a seguinte fórmula para fazer o cálculo: Area = (Base X Altura)/2
+    Definir Real base
+    Definir Real altura
+    Definir Real area
+    
+    Saída "Valor da Base do Triângulo: "
+    Entrada base
+    Saída "Valor da Altura do Triângulo: "
+    Entrada altura
+    Atribuir area = (base * altura) / 2
+    Saída "Área do Triângulo: " & area
+Fim

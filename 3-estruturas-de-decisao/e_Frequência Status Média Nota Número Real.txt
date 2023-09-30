@@ -1,0 +1,15 @@
+﻿Função Principal
+    ... Verificar se um aluno está aprovado ou reprovado. O critério de aprovação é ter média superior ou igual a 6 e frequência superior ou igual a 75.
+    Definir Real media
+    Definir Real frequencia
+    
+    Saída "Digite a média da nota do aluno: "
+    Entrada media
+    Saída "Digite a frequência do aluno: "
+    Entrada frequencia
+    Se media >= 6 && frequencia >= 75
+        Saída "Aluno aprovado!"
+    Senão
+        Saída "Aluno reprovado!"
+    Fim
+Fim

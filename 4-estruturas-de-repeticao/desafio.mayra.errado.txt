@@ -1,0 +1,27 @@
+Elabore um fluxograma usando o Flowgorithm para o seguinte problema:
+
+
+
+Uma empresa de recrutamento está cadastrando alguns candidatos a fim de selecionar novos funcionários para uma determinada empresa. 
+
+Os candidatos selecionados devem atender a pelo menos um dos seguintes critérios: 
+
+- Ter nível superior em qualquer área de formação;
+
+- Ser maior de 21 anos e com experiência no serviço;
+
+- Falar inglês ou espanhol.
+ 
+
+Fazer o cadastro do candidato que será composto por: número, nome, idade, experiência (S/N), Sexo(M/F), Fala inglês (S/N), Fala espanhol (S/N) 
+
+Depois de receber o cadastro imprimir na tela se o candidato foi ou não selecionado.
+ 
+
+Mostrar no final: 
+
+A quantidade de pessoas cadastradas 
+
+A quantidade de pessoas selecionadas 
+
+A média geral de idade dos candidatos (incluindo homens e mulheres)

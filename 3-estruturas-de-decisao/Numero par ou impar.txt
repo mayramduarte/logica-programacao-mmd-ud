@@ -1,0 +1,12 @@
+﻿Função Principal
+    ... Receber um número inteiro e verificar se o número é par ou ímpar
+    Definir Inteiro numero
+    
+    Saída "Digite um número inteiro: "
+    Entrada numero
+    Se numero % 2 == 0
+        Saída numero & " é par"
+    Senão
+        Saída numero & " é impar"
+    Fim
+Fim

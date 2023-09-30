@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-19 01:53:02 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjEyOjU5OjAxICI7MjgwMg=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjAxOjUzOjAyICI7MzQ7Mjk1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <declare name="valorA" type="Integer" array="False" size=""/>
+            <declare name="valorB" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro:&quot;" newline="True"/>
+            <input variable="valorA"/>
+            <output expression="&quot;Digite um n&#250;mero inteiro:&quot;" newline="True"/>
+            <input variable="valorB"/>
+            <output expression="&quot;Efetuando as opera&#231;&#245;es matem&#225;ticas b&#225;sicas:&quot;" newline="True"/>
+            <assign variable="resultado" expression="valorA + valorB"/>
+            <output expression="valorA &amp; &quot; + &quot; &amp; valorB &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            <assign variable="resultado" expression="valorA - valorB"/>
+            <output expression="valorA &amp; &quot; - &quot; &amp; valorB &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            <assign variable="resultado" expression="valorA * valorB"/>
+            <output expression="valorA &amp; &quot; * &quot; &amp; valorB &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            <assign variable="resultado" expression="valorA / valorB"/>
+            <output expression="valorA &amp; &quot; / &quot; &amp; valorB  &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            <assign variable="resultado" expression="valorA % valorB"/>
+            <output expression="&quot;Resto da divis&#227;o entre &quot; &amp; valorA &amp; &quot; % &quot; &amp; valorB &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

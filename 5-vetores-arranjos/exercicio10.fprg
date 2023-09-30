@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-23 12:47:19 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjEyOjM3OjE5ICI7MjgwMw=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjEyOjQ3OjE5ICI7ODsyOTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Construa um algoritmo que utilize um vetor do tipo inteiro com 6 posi&#231;&#245;es de armazenamento e receba valores via teclado. Exiba os valores do vetor na sa&#237;da na ordem em que foram armazenados e depois exiba-os na ordem inversa."/>
+            <declare name="A" type="Integer" array="True" size="6"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="5" direction="inc" step="1">
+                <output expression="&quot;Digite um n&#250;mero inteiro:&quot;" newline="True"/>
+                <input variable="A[i]"/>
+            </for>
+            <output expression="&quot;Os n&#250;meros digitados em ordem direta foram:&quot; &amp;A[0] &amp;A[1] &amp;A[2] &amp;A[3] &amp;A[4] &amp;A[5]" newline="True"/>
+            <output expression="&quot;Os n&#250;meros digitados em ordem inversa foram:&quot; &amp; A[5] &amp; A[4]&amp; A[3]&amp; A[2]&amp; A[1] &amp; A[0]" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

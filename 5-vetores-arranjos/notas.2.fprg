@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 05:52:24 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMTI7IjA0OjQxOjAzICI7Mjc5MA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMTI7IjA1OjUyOjI0ICI7MTA7Mjk1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Real" array="True" size="4"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <comment text="Repeti&#231;&#227;o &quot;para&quot; que recebe os valores do arranjo via teclado."/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="&quot;Digite a nota do aluno:&quot;" newline="True"/>
+                <input variable="nota[i]"/>
+            </for>
+            <comment text="Repeti&#231;&#227;o &quot;para&quot; que exibe os valores armazenados no arranjo."/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="nota[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

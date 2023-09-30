@@ -1,0 +1,39 @@
+﻿Função Principal
+    ... DESAFIO - Subprograma 
+    ...  
+    ... Elaborar um algoritmo que contenha uma subrotina (subprograma ou função) que receba 2 notas de um aluno como parâmetros e uma letra também como parâmetro.    
+    ...   
+    ... Se a letra for M, a subrotina deverá calcular a média aritmética das notas do aluno. 
+    ...   
+    ... Caso a letra seja P, deverá calcular a média ponderada de acordo com a seguinte fómula: 
+    ...  
+    ... Media = (0.4 * P1) + (0.6 * P2)
+    Definir Real Arranjo nota[2]
+    Definir Caracteres letra
+    Definir Real media
+    Definir Inteiro i
+    
+    Para i = 0 até 1
+        Saída "Digite a nota do aluno: "
+        Entrada nota[i]
+    Fim
+    Saída "Digite M para calcular a média aritimética ou P para calcular a média ponderada: "
+    Entrada letra
+    Atribuir media = calcularMedia(nota,letra)
+    Saída media
+Fim
+
+Função calcularMedia (Real Arranjo n, Caracteres l)
+    Definir Real m
+    
+    Se l == "M"
+        Atribuir m = (n[0] + n[1])/ 2
+    Senão
+        Se l == "P"
+            Atribuir m = (0.4 * n[0]) + (0.6 * n[1])
+        Senão
+            Saída "Digite corretamente o tipo de média que deseja calcular! (M ou P)"
+            Atribuir m = 0
+        Fim
+    Fim
+Retornar Real m

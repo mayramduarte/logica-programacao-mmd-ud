@@ -1,0 +1,20 @@
+﻿Função Principal
+    ... Elaborar um algoritmo que some as posições correspondentes de 2 vetores com 4 elementos cada um. Os valores serão inseridos pelo usuário. 
+    Definir Inteiro Arranjo A[4]
+    Definir Inteiro Arranjo B[4]
+    Definir Inteiro Arranjo S[4]
+    Definir Inteiro i
+    
+    Para i = 0 até 3
+        Saída "Digite o valor para A"&"["&i&"]"
+        Entrada A[i]
+    Fim
+    Para i = 0 até 3
+        Saída "Digite o valor para B"&"["&i&"]"
+        Entrada B[i]
+    Fim
+    Para i = 0 até 3
+        Atribuir S[i] = A[i] + B[i]
+        Saída S[i] & " = " & A[i] & " + " & B[i]
+    Fim
+Fim

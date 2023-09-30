@@ -1,0 +1,15 @@
+﻿Função Principal
+    Definir Inteiro numeroA
+    Definir Caracteres Letra
+    Definir Real Nota
+    
+    Saída "Digite o número do aluno:"
+    Entrada numeroA
+    Saída "Digite o conceito do aluno:"
+    Entrada Letra
+    Saída "Digite a nota do aluno:"
+    Entrada Nota
+    Saída "Aluno número: " & numeroA
+    Saída "Conceito: " & Letra
+    Saída "Nota: " & Nota
+Fim

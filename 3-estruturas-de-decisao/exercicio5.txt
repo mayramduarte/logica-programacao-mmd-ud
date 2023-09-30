@@ -1,0 +1,13 @@
+﻿Função Principal
+    ... Elabore um fluxograma que receba um valor inteiro digitado pelo usuário e verifique se este se encontra na faixa de zero a 10. 
+    ... Mostre mensagem informando se o valor está dentro da faixa permitida ou se está fora da faixa.
+    Definir Inteiro valor
+    
+    Saída "Digite um número inteiro: "
+    Entrada valor
+    Se valor >= 0 && valor <= 10
+        Saída "Valor dentro da faixa permitida"
+    Senão
+        Saída "Valor fora da faixa permitida"
+    Fim
+Fim

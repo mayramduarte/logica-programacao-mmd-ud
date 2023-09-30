@@ -1,0 +1,24 @@
+﻿Função Principal
+    ... Dados três valores reais X,Y e Z.  Construa um algoritmo que leia esses valores e verifique se a soma desses valores é maior que 50, ou não e informe esse resultado. Também deve ser informado caso a soma seja exatamente 50.
+    Definir Real x
+    Definir Real y
+    Definir Real z
+    Definir Real soma
+    
+    Saída "Digite x: "
+    Entrada x
+    Saída "Digite y: "
+    Entrada y
+    Saída "Digite z: "
+    Entrada z
+    Atribuir soma = x + y + z
+    Se soma > 50
+        Saída soma & " é maior que 50"
+    Senão
+        Se soma < 50
+            Saída soma & " é menor que 50"
+        Senão
+            Saída soma & " é igual a 50"
+        Fim
+    Fim
+Fim

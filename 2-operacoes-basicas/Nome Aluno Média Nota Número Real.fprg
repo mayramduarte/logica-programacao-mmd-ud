@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-19 04:56:24 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA0OjM2OjE4ICI7MjgwNg=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA0OjU2OjI0ICI7NTsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Receber duas notas, calcular a m&#233;dia e mostrar nome do aluno&#13;&#10;"/>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o nome do aluno: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a nota da primeira prova: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a nota da segunda prova: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1 + nota2) / 2"/>
+            <output expression="nome &amp; &quot;, sua m&#233;dia final foi &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

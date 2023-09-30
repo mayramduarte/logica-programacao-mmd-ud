@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-25 09:18:29 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjQ7IjAyOjQ0OjAxICI7Mjc5Mg=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjU7IjA5OjE4OjI5ICI7MzE7Mjk3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Construa uma subrotina que receba a nota de um aluno por par&#226;metro e retorne o seu conceito, de acordo com a tabela a seguir.&#13;&#10;&#13;&#10;Nota/Conceito&#13;&#10;&#13;&#10;De 9,0 a 10,00 - A&#13;&#10;&#13;&#10;De 7,0 a 8,9 -  B&#13;&#10;&#13;&#10;De 5,0 a 6,9 - C&#13;&#10;&#13;&#10;De 3,0 a 4,9 - D&#13;&#10;&#13;&#10;De 0 a 2,9 - E"/>
+            <declare name="nota" type="Real" array="False" size=""/>
+            <declare name="conceito" type="String" array="False" size=""/>
+            <output expression="&quot;Digite a nota do aluno:&quot;" newline="True"/>
+            <input variable="nota"/>
+            <assign variable="conceito" expression="calcularConceito(nota)"/>
+            <output expression="&quot;O conceito do aluno &#233;: &quot; &amp; conceito" newline="True"/>
+        </body>
+    </function>
+    <function name="calcularConceito" type="String" variable="c">
+        <parameters>
+            <parameter name="n" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="c" type="String" array="False" size=""/>
+            <if expression="n&gt;=9 &amp;&amp; n&lt;=10">
+                <then>
+                    <assign variable="c" expression="&quot;A&quot;"/>
+                </then>
+                <else>
+                    <if expression="n&gt;=7 &amp;&amp; n&lt;9">
+                        <then>
+                            <assign variable="c" expression="&quot;B&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="n&gt;=5 &amp;&amp; n&lt;7">
+                                <then>
+                                    <assign variable="c" expression="&quot;C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="n&gt;=3 &amp;&amp; n&lt;5">
+                                        <then>
+                                            <assign variable="c" expression="&quot;D&quot;"/>
+                                        </then>
+                                        <else>
+                                            <if expression="n&gt;=0 &amp;&amp; n&lt;3">
+                                                <then>
+                                                    <assign variable="c" expression="&quot;E&quot;"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+﻿Função Principal
+    ... Elabore um algoritmo que receba 8 valores reais armazenando-os em um vetor e determine quantos números maiores que 10 estão presentes no vetor.
+    Definir Real Arranjo A[8]
+    Definir Inteiro maior
+    
+    Atribuir maior = 10
+    Definir Inteiro cont
+    
+    Atribuir cont = 0
+    Definir Inteiro i
+    
+    Para i = 0 até 7
+        Saída "Digite o valor para A"&"["&i&"]"
+        Entrada A[i]
+    Fim
+    Para i = 0 até 7
+        Se maior < A[i]
+            Atribuir cont = cont + 1
+        Fim
+    Fim
+    Saída "Quantidade de valores maiores que dez no vetor: " &cont
+Fim

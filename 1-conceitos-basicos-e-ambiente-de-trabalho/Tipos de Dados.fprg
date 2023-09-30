@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-18 08:03:28 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTg7IjA3OjM4OjEzICI7MjgwNQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTg7IjA4OjAzOjI4ICI7NDsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeroA" type="Integer" array="False" size=""/>
+            <declare name="Letra" type="String" array="False" size=""/>
+            <declare name="Nota" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero do aluno:&quot;" newline="True"/>
+            <input variable="numeroA"/>
+            <output expression="&quot;Digite o conceito do aluno:&quot;" newline="True"/>
+            <input variable="Letra"/>
+            <output expression="&quot;Digite a nota do aluno:&quot;" newline="True"/>
+            <input variable="Nota"/>
+            <output expression="&quot;Aluno n&#250;mero: &quot; &amp; numeroA" newline="True"/>
+            <output expression="&quot;Conceito: &quot; &amp; Letra" newline="True"/>
+            <output expression="&quot;Nota: &quot; &amp; Nota" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

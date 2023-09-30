@@ -1,0 +1,31 @@
+﻿Função Principal
+    ... Calcular a média das notas de 5 alunos e verificar se estão aprovados ou reprovados. A méda para aprovação é 7. Mostrar a quantidade total de alunos aprovados e reprovados. 
+    Definir Real nota1
+    Definir Real nota2
+    Definir Real media
+    Definir Inteiro contAprovados
+    
+    Atribuir contAprovados = 0
+    Definir Inteiro contReprovados
+    
+    Atribuir contReprovados = 0
+    Definir Inteiro i
+    
+    Para i = 1 até 5
+        Saída "Digite a nota da primeira prova:"
+        Entrada nota1
+        Saída "Digite a nota da segunda prova:"
+        Entrada nota2
+        Atribuir media = (nota1 + nota2) / 2
+        Saída "Média final do aluno = " & media
+        Se media >=7
+            Saída "Aprovado!"
+            Atribuir contAprovados = contAprovados + 1
+        Senão
+            Saída "Reprovado!"
+            Atribuir contReprovados = contReprovados + 1
+        Fim
+    Fim
+    Saída "Quantidades de alunos aprovados: " & contAprovados
+    Saída "Quantidades de alunos reprovados: " & contReprovados
+Fim

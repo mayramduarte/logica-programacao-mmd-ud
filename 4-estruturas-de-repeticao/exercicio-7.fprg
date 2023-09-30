@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-01 07:00:13 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDE7IjAzOjQ4OjUyICI7Mjc5OA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDE7IjA3OjAwOjEzICI7Mzg7Mjk1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text=" Construa um algoritmo que receba 10 n&#250;meros inteiros inseridos pelos usu&#225;rio e fa&#231;a uma contagem de quantos n&#250;meros fornecidos s&#227;o pares e quantos s&#227;o &#237;mpares. Exiba o resultado dessas contagens e mostre tamb&#233;m a soma dos valores pares e a soma dos valores &#237;mpares."/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="contPar" type="Integer" array="False" size=""/>
+            <assign variable="contPar" expression="0"/>
+            <declare name="contImpar" type="Integer" array="False" size=""/>
+            <assign variable="contImpar" expression="0"/>
+            <declare name="acumuladorPar" type="Integer" array="False" size=""/>
+            <assign variable="acumuladorPar" expression="0"/>
+            <declare name="acumuladorImpar" type="Integer" array="False" size=""/>
+            <assign variable="acumuladorImpar" expression="0"/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <for variable="contador" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+                <input variable="numero"/>
+                <if expression="numero % 2 == 0">
+                    <then>
+                        <output expression="&quot;&#201; par!&quot;" newline="True"/>
+                        <assign variable="contPar" expression="contPar + 1"/>
+                        <assign variable="acumuladorPar" expression="acumuladorPar + numero"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;&#201; impar!&quot;" newline="True"/>
+                        <assign variable="contImpar" expression="contImpar + 1"/>
+                        <assign variable="acumuladorImpar" expression="acumuladorImpar + numero"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;A quantidade dos valores pares &#233;: &quot; &amp; contPar" newline="True"/>
+            <output expression="&quot;A quantidade dos valores &#237;mpares &#233;: &quot; &amp; contImpar" newline="True"/>
+            <output expression="&quot;A soma dos valores pares &#233;: &quot; &amp; acumuladorPar" newline="True"/>
+            <output expression="&quot;A soma dos valores &#237;mpares &#233;: &quot; &amp; acumuladorImpar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

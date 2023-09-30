@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-26 03:04:22 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjI7IjAyOjA5OjE2ICI7Mjc5Ng=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjY7IjAzOjA0OjIyICI7ODsyOTA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Uma m&#225;quina deve monitorar a temperatura do ambiente e disparar um alarme caso esta esteja acima ou abaixo do limite estabelecido. A temperatura m&#237;nima permitida &#233; de 5 graus e a m&#225;xima &#233; de 12 graus."/>
+            <declare name="temperatura" type="Real" array="False" size=""/>
+            <declare name="limiteMax" type="Real" array="False" size=""/>
+            <declare name="limiteMin" type="Real" array="False" size=""/>
+            <assign variable="limiteMax" expression="12"/>
+            <assign variable="limiteMin" expression="5"/>
+            <output expression="&quot;Informe a temperatura atual: &quot;" newline="True"/>
+            <input variable="temperatura"/>
+            <if expression="temperatura &gt; limiteMax || temperatura &lt; limiteMin">
+                <then>
+                    <output expression="&quot;Temperatura fora da faixa permitida!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Temperatura OK!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

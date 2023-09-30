@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-03 06:36:01 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA2OjI0OjMxICI7Mjc5NA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA2OjM2OjAxICI7MjsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="continua" type="String" array="False" size=""/>
+            <do expression="continua == &quot;1&quot;">
+                <output expression="&quot;Boa tarde!&quot;" newline="True"/>
+                <output expression="&quot;Digite 1 para continuar ou outra tecla para sair:&quot;" newline="True"/>
+                <input variable="continua"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

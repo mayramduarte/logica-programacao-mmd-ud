@@ -1,0 +1,9 @@
+﻿Função Principal
+    Definir Inteiro continua
+    
+    Atribuir continua = 3
+    Ciclo
+        Saída "Boa tarde!"
+        Atribuir continua = continua - 1
+    Fazer continua > 0
+Fim

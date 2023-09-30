@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-19 05:27:56 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA0OjU3OjA3ICI7MjgwNw=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA1OjI3OjU2ICI7NzsyOTIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Calcular o valor do s&#225;lario l&#237;quido de um profissional horista. Aplica-se 10% de desconto sobre o valor do sal&#225;rio bruto. "/>
+            <declare name="valorHora" type="Real" array="False" size=""/>
+            <declare name="qtdHorasTrabalhadas" type="Real" array="False" size=""/>
+            <declare name="salarioBruto" type="Real" array="False" size=""/>
+            <declare name="descontos" type="Real" array="False" size=""/>
+            <declare name="salarioLiquido" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor da hora trabalhada: &quot;" newline="True"/>
+            <input variable="valorHora"/>
+            <output expression="&quot;Quantidade de horas trabalhadas: &quot;" newline="True"/>
+            <input variable="qtdHorasTrabalhadas"/>
+            <assign variable="salarioBruto" expression="valorHora * qtdHorasTrabalhadas"/>
+            <output expression="&quot;Sal&#225;rio bruto: R$ &quot; &amp; salarioBruto" newline="True"/>
+            <assign variable="descontos" expression="salarioBruto * 0.10"/>
+            <output expression="&quot;Descontos: R$ &quot; &amp; descontos" newline="True"/>
+            <assign variable="salarioLiquido" expression="salarioBruto - descontos"/>
+            <output expression="&quot;Sal&#225;rio l&#237;quido: R$ &quot; &amp; salarioLiquido" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

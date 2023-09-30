@@ -1,0 +1,16 @@
+﻿Função Principal
+    ... Uma máquina deve monitorar a temperatura do ambiente e disparar um alarme caso esta esteja acima ou abaixo do limite estabelecido. A temperatura mínima permitida é de 5 graus e a máxima é de 12 graus.
+    Definir Real temperatura
+    Definir Real limiteMax
+    Definir Real limiteMin
+    
+    Atribuir limiteMax = 12
+    Atribuir limiteMin = 5
+    Saída "Informe a temperatura atual: "
+    Entrada temperatura
+    Se temperatura > limiteMax || temperatura < limiteMin
+        Saída "Temperatura fora da faixa permitida!"
+    Senão
+        Saída "Temperatura OK!"
+    Fim
+Fim

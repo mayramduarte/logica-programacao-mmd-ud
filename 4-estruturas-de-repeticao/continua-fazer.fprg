@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-03 06:26:34 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA2OjI0OjMxICI7Mjc5NA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA2OjI2OjM0ICI7MTsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="continua" type="Integer" array="False" size=""/>
+            <assign variable="continua" expression="3"/>
+            <do expression="continua &gt; 0">
+                <output expression="&quot;Boa tarde!&quot;" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

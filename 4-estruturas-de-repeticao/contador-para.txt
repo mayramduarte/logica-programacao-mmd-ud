@@ -1,0 +1,7 @@
+﻿Função Principal
+    Definir Inteiro contador
+    
+    Para contador = 1 até 10
+        Saída contador & " Algoritmo"
+    Fim
+Fim

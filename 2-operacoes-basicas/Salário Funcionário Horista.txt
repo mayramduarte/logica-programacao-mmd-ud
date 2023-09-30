@@ -1,0 +1,19 @@
+﻿Função Principal
+    ... Calcular o valor do sálario líquido de um profissional horista. Aplica-se 10% de desconto sobre o valor do salário bruto. 
+    Definir Real valorHora
+    Definir Real qtdHorasTrabalhadas
+    Definir Real salarioBruto
+    Definir Real descontos
+    Definir Real salarioLiquido
+    
+    Saída "Valor da hora trabalhada: "
+    Entrada valorHora
+    Saída "Quantidade de horas trabalhadas: "
+    Entrada qtdHorasTrabalhadas
+    Atribuir salarioBruto = valorHora * qtdHorasTrabalhadas
+    Saída "Salário bruto: R$ " & salarioBruto
+    Atribuir descontos = salarioBruto * 0.10
+    Saída "Descontos: R$ " & descontos
+    Atribuir salarioLiquido = salarioBruto - descontos
+    Saída "Salário líquido: R$ " & salarioLiquido
+Fim

@@ -1,0 +1,8 @@
+Valor da hora trabalhada: 
+10
+Quantidade de horas trabalhadas: 
+160
+Salário bruto: R$ 1600
+Descontos: R$ 160
+Salário líquido: R$ 1440
+

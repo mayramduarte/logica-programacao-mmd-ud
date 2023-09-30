@@ -1,0 +1,13 @@
+﻿Função Principal
+    ... Elaborar um algoritmo que converta um determinado valor em R$ para Euros. Este algoritmo deve solicitar que o usuário informe a quantidade de moeda em R$ que deseja converter e a cotação do Euro.
+    Definir Real realBrasil
+    Definir Real cotacaoEuro
+    Definir Real euro
+    
+    Saída "Valor Real Brasil: "
+    Entrada realBrasil
+    Saída "Valor Cotação Euro Atual: "
+    Entrada cotacaoEuro
+    Atribuir euro = realBrasil / cotacaoEuro
+    Saída "Valor Euro: " & euro
+Fim

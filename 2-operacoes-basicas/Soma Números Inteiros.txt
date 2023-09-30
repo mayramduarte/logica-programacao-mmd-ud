@@ -1,0 +1,12 @@
+﻿Função Principal
+    Definir Inteiro valorA
+    Definir Inteiro valorB
+    Definir Inteiro resultado
+    
+    Saída "Digite um número inteiro:"
+    Entrada valorA
+    Saída "Digite um número inteiro:"
+    Entrada valorB
+    Atribuir resultado = valorA + valorB
+    Saída "Resultado da soma = " &resultado
+Fim

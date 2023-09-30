@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-23 11:24:11 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjExOjA3OjEzICI7Mjc5Mw=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjExOjI0OjExICI7NzsyOTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elaborar um algoritmo que some as posi&#231;&#245;es correspondentes de 2 vetores com 4 elementos cada um. Os valores ser&#227;o inseridos pelo usu&#225;rio. "/>
+            <declare name="A" type="Integer" array="True" size="4"/>
+            <declare name="B" type="Integer" array="True" size="4"/>
+            <declare name="S" type="Integer" array="True" size="4"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="&quot;Digite o valor para A&quot;&amp;&quot;[&quot;&amp;i&amp;&quot;]&quot;" newline="True"/>
+                <input variable="A[i]"/>
+            </for>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <output expression="&quot;Digite o valor para B&quot;&amp;&quot;[&quot;&amp;i&amp;&quot;]&quot;" newline="True"/>
+                <input variable="B[i]"/>
+            </for>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <assign variable="S[i]" expression="A[i] + B[i]"/>
+                <output expression="S[i] &amp; &quot; = &quot; &amp; A[i] &amp; &quot; + &quot; &amp; B[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

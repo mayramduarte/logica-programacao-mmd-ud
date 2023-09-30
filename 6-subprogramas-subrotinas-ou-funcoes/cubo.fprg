@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-24 10:43:07 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjQ7IjEwOjI1OjQ1ICI7Mjc5OA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjQ7IjEwOjQzOjA3ICI7NDsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Criar um subprograma que calcule o valor do cubo de um n&#250;mero e retorne o resultado para o programa principal."/>
+            <declare name="n&#250;mero" type="Integer" array="False" size=""/>
+            <declare name="res" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro:&quot;" newline="True"/>
+            <input variable="n&#250;mero"/>
+            <assign variable="res" expression="calcularCubo(n&#250;mero)"/>
+            <output expression="res" newline="True"/>
+        </body>
+    </function>
+    <function name="calcularCubo" type="Integer" variable="r">
+        <parameters>
+            <parameter name="n" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <assign variable="r" expression="n * n * n"/>
+        </body>
+    </function>
+</flowgorithm>

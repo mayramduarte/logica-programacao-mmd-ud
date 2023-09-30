@@ -1,0 +1,11 @@
+﻿Função Principal
+    Definir Inteiro idade
+    
+    Saída "Digite sua idade: "
+    Entrada idade
+    Se idade >= 18
+        Saída "Você é maior de idade! "
+    Senão
+        Saída "Você é menor de idade! "
+    Fim
+Fim

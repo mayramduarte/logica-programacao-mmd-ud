@@ -1,0 +1,23 @@
+﻿Função Principal
+    ... Receber duas notas e calcular a média. Verificar se o aluno foi aprovado, reprovado ou está em recuperação. 
+    ... 
+    Definir Real nota1
+    Definir Real nota2
+    Definir Real media
+    
+    Saída "Digite a nota da primeira prova: "
+    Entrada nota1
+    Saída "Digite a nota da segunda prova: "
+    Entrada nota2
+    Atribuir media = (nota1 + nota2) / 2
+    Saída "Média final do aluno = " &media
+    Se media >= 7
+        Saída "Aprovado"
+    Senão
+        Se media < 3
+            Saída "Reprovado"
+        Senão
+            Saída "Recuperação"
+        Fim
+    Fim
+Fim

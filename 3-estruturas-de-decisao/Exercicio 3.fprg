@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-21 07:00:36 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjE7IjA2OjQ2OjAwICI7Mjc5Mw=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjE7IjA3OjAwOjM2ICI7MjA7Mjk1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Dados tr&#234;s valores reais X,Y e Z.  Construa um algoritmo que leia esses valores e verifique se a soma desses valores &#233; maior que 50, ou n&#227;o e informe esse resultado. Tamb&#233;m deve ser informado caso a soma seja exatamente 50."/>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="y" type="Real" array="False" size=""/>
+            <declare name="z" type="Real" array="False" size=""/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite x: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite y: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Digite z: &quot;" newline="True"/>
+            <input variable="z"/>
+            <assign variable="soma" expression="x + y + z"/>
+            <if expression="soma &gt; 50">
+                <then>
+                    <output expression="soma &amp; &quot; &#233; maior que 50&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="soma &lt; 50">
+                        <then>
+                            <output expression="soma &amp; &quot; &#233; menor que 50&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="soma &amp; &quot; &#233; igual a 50&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

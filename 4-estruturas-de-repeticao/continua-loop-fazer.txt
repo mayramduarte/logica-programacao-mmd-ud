@@ -1,0 +1,9 @@
+﻿Função Principal
+    Definir Caracteres continua
+    
+    Ciclo
+        Saída "Boa tarde!"
+        Saída "Digite 1 para continuar ou outra tecla para sair:"
+        Entrada continua
+    Fazer continua == "1"
+Fim

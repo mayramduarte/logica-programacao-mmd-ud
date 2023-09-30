@@ -1,0 +1,18 @@
+﻿Função Principal
+    ... Elaborar um algoritmo que encontre o maior valor presente nos elementos de um vetor de 5 posições. 
+    Definir Inteiro Arranjo A[5]
+    Definir Inteiro maior
+    Definir Inteiro i
+    
+    Para i = 0 até 4
+        Saída "Digite o valor para A"&"["&i&"]"
+        Entrada A[i]
+    Fim
+    Atribuir maior = A[0]
+    Para i = 0 até 4
+        Se maior < A[i]
+            Atribuir maior = A[i]
+        Fim
+    Fim
+    Saída "O maior valor presente no vetor é " & maior
+Fim

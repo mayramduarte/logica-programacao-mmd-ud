@@ -1,0 +1,35 @@
+﻿Função Principal
+    ...  Construa um algoritmo que receba 10 números inteiros inseridos pelos usuário e faça uma contagem de quantos números fornecidos são pares e quantos são ímpares. Exiba o resultado dessas contagens e mostre também a soma dos valores pares e a soma dos valores ímpares.
+    Definir Inteiro numero
+    Definir Inteiro contPar
+    
+    Atribuir contPar = 0
+    Definir Inteiro contImpar
+    
+    Atribuir contImpar = 0
+    Definir Inteiro acumuladorPar
+    
+    Atribuir acumuladorPar = 0
+    Definir Inteiro acumuladorImpar
+    
+    Atribuir acumuladorImpar = 0
+    Definir Inteiro contador
+    
+    Para contador = 1 até 10
+        Saída "Digite um número inteiro: "
+        Entrada numero
+        Se numero % 2 == 0
+            Saída "É par!"
+            Atribuir contPar = contPar + 1
+            Atribuir acumuladorPar = acumuladorPar + numero
+        Senão
+            Saída "É impar!"
+            Atribuir contImpar = contImpar + 1
+            Atribuir acumuladorImpar = acumuladorImpar + numero
+        Fim
+    Fim
+    Saída "A quantidade dos valores pares é: " & contPar
+    Saída "A quantidade dos valores ímpares é: " & contImpar
+    Saída "A soma dos valores pares é: " & acumuladorPar
+    Saída "A soma dos valores ímpares é: " & acumuladorImpar
+Fim

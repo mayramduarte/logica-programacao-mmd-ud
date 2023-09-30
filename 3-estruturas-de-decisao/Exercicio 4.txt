@@ -1,0 +1,19 @@
+﻿Função Principal
+    ... Faça um algoritmo que leia dois valores inteiros,  e mostre na tela o menor deles.
+    Definir Inteiro x
+    Definir Inteiro y
+    
+    Saída "Digite um número inteiro x: "
+    Entrada x
+    Saída "Digite um número inteiro y: "
+    Entrada y
+    Se x < y
+        Saída x & " é o menor número"
+    Senão
+        Se y < x
+            Saída y & " é o menor número"
+        Senão
+            Saída "Os dois números são iguais"
+        Fim
+    Fim
+Fim

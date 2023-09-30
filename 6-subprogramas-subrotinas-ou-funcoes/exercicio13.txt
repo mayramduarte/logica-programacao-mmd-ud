@@ -1,0 +1,46 @@
+﻿Função Principal
+    ... Construa uma subrotina que receba a nota de um aluno por parâmetro e retorne o seu conceito, de acordo com a tabela a seguir. 
+    ...  
+    ... Nota/Conceito 
+    ...  
+    ... De 9,0 a 10,00 - A 
+    ...  
+    ... De 7,0 a 8,9 -  B 
+    ...  
+    ... De 5,0 a 6,9 - C 
+    ...  
+    ... De 3,0 a 4,9 - D 
+    ...  
+    ... De 0 a 2,9 - E
+    Definir Real nota
+    Definir Caracteres conceito
+    
+    Saída "Digite a nota do aluno:"
+    Entrada nota
+    Atribuir conceito = calcularConceito(nota)
+    Saída "O conceito do aluno é: " & conceito
+Fim
+
+Função calcularConceito (Real n)
+    Definir Caracteres c
+    
+    Se n>=9 && n<=10
+        Atribuir c = "A"
+    Senão
+        Se n>=7 && n<9
+            Atribuir c = "B"
+        Senão
+            Se n>=5 && n<7
+                Atribuir c = "C"
+            Senão
+                Se n>=3 && n<5
+                    Atribuir c = "D"
+                Senão
+                    Se n>=0 && n<3
+                        Atribuir c = "E"
+                    Fim
+                Fim
+            Fim
+        Fim
+    Fim
+Retornar Caracteres c

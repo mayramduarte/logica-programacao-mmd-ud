@@ -1,0 +1,21 @@
+﻿Função Principal
+    Definir Inteiro resultado
+    Definir Inteiro valorA
+    Definir Inteiro valorB
+    
+    Saída "Digite um número inteiro:"
+    Entrada valorA
+    Saída "Digite um número inteiro:"
+    Entrada valorB
+    Saída "Efetuando as operações matemáticas básicas:"
+    Atribuir resultado = valorA + valorB
+    Saída valorA & " + " & valorB & " = " & resultado
+    Atribuir resultado = valorA - valorB
+    Saída valorA & " - " & valorB & " = " & resultado
+    Atribuir resultado = valorA * valorB
+    Saída valorA & " * " & valorB & " = " & resultado
+    Atribuir resultado = valorA / valorB
+    Saída valorA & " / " & valorB  & " = " & resultado
+    Atribuir resultado = valorA % valorB
+    Saída "Resto da divisão entre "& valorA & " % " & valorB & " = " & resultado
+Fim

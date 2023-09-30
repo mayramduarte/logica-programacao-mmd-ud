@@ -1,0 +1,12 @@
+﻿Função Principal
+    Definir Inteiro numero
+    Definir Inteiro contador
+    Definir Inteiro resultado
+    
+    Saída "Digite um número para calcular a tabuada:"
+    Entrada numero
+    Para contador = 1 até 10
+        Atribuir resultado = numero * contador
+        Saída numero & " x " & contador & " = " & resultado
+    Fim
+Fim

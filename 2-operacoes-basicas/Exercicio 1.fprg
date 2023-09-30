@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-19 05:39:48 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA1OjI5OjEzICI7MjgwNA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA1OjM5OjQ4ICI7MzsyOTIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elabore um algoritmo que calcule a &#225;rea de um tri&#226;ngulo.  Considere a seguinte f&#243;rmula para fazer o c&#225;lculo: Area = (Base X Altura)/2"/>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor da Base do Tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Valor da Altura do Tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(base * altura) / 2"/>
+            <output expression="&quot;&#193;rea do Tri&#226;ngulo: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

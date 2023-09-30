@@ -1,0 +1,12 @@
+﻿Função Principal
+    ... Construa um algoritmo que utilize um vetor do tipo inteiro com 6 posições de armazenamento e receba valores via teclado. Exiba os valores do vetor na saída na ordem em que foram armazenados e depois exiba-os na ordem inversa.
+    Definir Inteiro Arranjo A[6]
+    Definir Inteiro i
+    
+    Para i = 0 até 5
+        Saída "Digite um número inteiro:"
+        Entrada A[i]
+    Fim
+    Saída "Os números digitados em ordem direta foram:" &A[0] &A[1] &A[2] &A[3] &A[4] &A[5]
+    Saída "Os números digitados em ordem inversa foram:" & A[5] & A[4]& A[3]& A[2]& A[1] & A[0]
+Fim

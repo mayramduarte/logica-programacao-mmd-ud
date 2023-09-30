@@ -1,0 +1,9 @@
+﻿Função Principal
+    Definir Inteiro contador
+    
+    Atribuir contador = 0
+    Enquanto contador <= 4
+        Saída contador
+        Atribuir contador = contador + 1
+    Fim
+Fim

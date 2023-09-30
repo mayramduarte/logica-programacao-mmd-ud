@@ -1,0 +1,12 @@
+﻿Função Principal
+    Definir Real Arranjo nota[4]
+    Definir Inteiro i
+    
+    Atribuir nota[0] = 9.5
+    Atribuir nota[1] = 4
+    Atribuir nota[2] = 6.8
+    Atribuir nota[3] = 8.7
+    Para i = 0 até 3
+        Saída nota[i]
+    Fim
+Fim

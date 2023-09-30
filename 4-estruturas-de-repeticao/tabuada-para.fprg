@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-30 05:47:36 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMzA7IjA1OjM2OjE4ICI7MjgwMA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMzA7IjA1OjQ3OjM2ICI7MzsyOTEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para calcular a tabuada:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="contador" start="1" end="10" direction="inc" step="1">
+                <assign variable="resultado" expression="numero * contador"/>
+                <output expression="numero &amp; &quot; x &quot; &amp; contador &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

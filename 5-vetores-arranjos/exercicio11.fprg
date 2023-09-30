@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-23 01:05:37 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjEyOjQ4OjEyICI7Mjc5OA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjAxOjA1OjM3ICI7NDsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elabore um diagrama que receba via teclado 10 valores inteiros e armazene-os em um vetor(arranjo).&#13;&#10;&#13;&#10;Percorra o vetor e exiba o valor atual de cada elemento.&#13;&#10;&#13;&#10;Em seguida, altere o valor de cada elemento do vetor multiplicando-o por 10.&#13;&#10;&#13;&#10;Percorra o vetor e exiba os valores atualizados."/>
+            <declare name="A" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;Digite o valor para A&quot;&amp;&quot;[&quot;&amp;i&amp;&quot;]&quot;" newline="True"/>
+                <input variable="A[i]"/>
+            </for>
+            <output expression="&quot;Valores originais digitados do vetor:&quot;" newline="True"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="A[i]" newline="True"/>
+            </for>
+            <output expression="&quot;Valores do vetor multiplicados por 10 :&quot;" newline="True"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <assign variable="A[i]" expression="A[i] * 10"/>
+                <output expression="A[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

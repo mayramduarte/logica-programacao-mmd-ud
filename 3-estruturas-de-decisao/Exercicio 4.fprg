@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-21 07:10:45 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjE7IjA3OjAxOjUzICI7Mjc5Mw=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjE7IjA3OjEwOjQ1ICI7MTI7Mjk1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Fa&#231;a um algoritmo que leia dois valores inteiros,  e mostre na tela o menor deles."/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro x: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite um n&#250;mero inteiro y: &quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x &lt; y">
+                <then>
+                    <output expression="x &amp; &quot; &#233; o menor n&#250;mero&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="y &lt; x">
+                        <then>
+                            <output expression="y &amp; &quot; &#233; o menor n&#250;mero&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Os dois n&#250;meros s&#227;o iguais&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

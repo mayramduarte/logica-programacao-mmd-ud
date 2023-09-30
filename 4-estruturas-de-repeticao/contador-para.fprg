@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-30 05:23:55 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMzA7IjA1OjEyOjAwICI7Mjc4NQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMzA7IjA1OjIzOjU1ICI7MzsyOTA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <for variable="contador" start="1" end="10" direction="inc" step="1">
+                <output expression="contador &amp; &quot; Algoritmo&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

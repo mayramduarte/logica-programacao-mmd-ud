@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-01 06:00:52 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDE7IjAzOjQ3OjU2ICI7MjgwMQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDE7IjA2OjAwOjUyICI7MTA7Mjk0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Utilizando a estrutura de repeti&#231;&#227;o PARA elabore um programa que receba 10 valores reais e calcule a m&#233;dia desses valores."/>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <declare name="acumuladorValor" type="Real" array="False" size=""/>
+            <assign variable="acumuladorValor" expression="0"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="contador" type="Integer" array="False" size=""/>
+            <for variable="contador" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Digite um valor real:&quot;" newline="True"/>
+                <input variable="valor"/>
+                <assign variable="acumuladorValor" expression="acumuladorValor + valor"/>
+            </for>
+            <assign variable="media" expression="acumuladorValor / 10"/>
+            <output expression="&quot;A m&#233;dia dos valores &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

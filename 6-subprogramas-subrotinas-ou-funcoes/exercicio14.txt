@@ -1,0 +1,24 @@
+﻿Função Principal
+    ... Implemente uma subrotina que recebe um valor inteiro e verifica se o valor é par ou ímpar. A função deve retornar o valor 1 caso o número seja ímpar ou retornar zero caso seja par.
+    Definir Inteiro numero
+    Definir Inteiro res
+    
+    Saída "Digite um número inteiro: "
+    Entrada numero
+    Atribuir res = verificarPar(numero)
+    Se res == 0
+        Saída "O número é par!"
+    Senão
+        Saída "O número é ímpar!"
+    Fim
+Fim
+
+Função verificarPar (Inteiro n)
+    Definir Inteiro r
+    
+    Se n % 2 == 0
+        Atribuir r = 0
+    Senão
+        Atribuir r = 1
+    Fim
+Retornar Inteiro r

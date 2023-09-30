@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-22 02:06:51 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA0OjM2OjE4ICI7MjgwNg=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjI7IjAyOjA2OjUxICI7NTQ7Mjk1Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Verificar se um aluno est&#225; aprovado ou reprovado. O crit&#233;rio de aprova&#231;&#227;o &#233; ter m&#233;dia superior ou igual a 6 e frequ&#234;ncia superior ou igual a 75."/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="frequencia" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a m&#233;dia da nota do aluno: &quot;" newline="True"/>
+            <input variable="media"/>
+            <output expression="&quot;Digite a frequ&#234;ncia do aluno: &quot;" newline="True"/>
+            <input variable="frequencia"/>
+            <if expression="media &gt;= 6 &amp;&amp; frequencia &gt;= 75">
+                <then>
+                    <output expression="&quot;Aluno aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aluno reprovado!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

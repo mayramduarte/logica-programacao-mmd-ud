@@ -1,0 +1,17 @@
+﻿Função Principal
+    ... Receber duas notas, calcular a média e mostrar nome do aluno 
+    ... 
+    Definir Real nota1
+    Definir Real nota2
+    Definir Real media
+    Definir Caracteres nome
+    
+    Saída "Digite o nome do aluno: "
+    Entrada nome
+    Saída "Digite a nota da primeira prova: "
+    Entrada nota1
+    Saída "Digite a nota da segunda prova: "
+    Entrada nota2
+    Atribuir media = (nota1 + nota2) / 2
+    Saída nome & ", sua média final foi " & media
+Fim

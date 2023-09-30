@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-19 05:50:57 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA1OjQwOjE1ICI7Mjc5OQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMTk7IjA1OjUwOjU3ICI7MTY7Mjk2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elaborar um algoritmo que converta um determinado valor em R$ para Euros. Este algoritmo deve solicitar que o usu&#225;rio informe a quantidade de moeda em R$ que deseja converter e a cota&#231;&#227;o do Euro."/>
+            <declare name="realBrasil" type="Real" array="False" size=""/>
+            <declare name="cotacaoEuro" type="Real" array="False" size=""/>
+            <declare name="euro" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor Real Brasil: &quot;" newline="True"/>
+            <input variable="realBrasil"/>
+            <output expression="&quot;Valor Cota&#231;&#227;o Euro Atual: &quot;" newline="True"/>
+            <input variable="cotacaoEuro"/>
+            <assign variable="euro" expression="realBrasil / cotacaoEuro"/>
+            <output expression="&quot;Valor Euro: &quot; &amp; euro" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

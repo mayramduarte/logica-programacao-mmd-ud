@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-24 02:43:10 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjQ7IjEwOjUyOjQxICI7Mjc5NA=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjQ7IjAyOjQzOjEwICI7MTQzOzMwMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="DESAFIO - Subprograma&#13;&#10;&#13;&#10;Elaborar um algoritmo que contenha uma subrotina (subprograma ou fun&#231;&#227;o) que receba 2 notas de um aluno como par&#226;metros e uma letra tamb&#233;m como par&#226;metro.   &#13;&#10; &#13;&#10;Se a letra for M, a subrotina dever&#225; calcular a m&#233;dia aritm&#233;tica das notas do aluno.&#13;&#10; &#13;&#10;Caso a letra seja P, dever&#225; calcular a m&#233;dia ponderada de acordo com a seguinte f&#243;mula:&#13;&#10;&#13;&#10;Media = (0.4 * P1) + (0.6 * P2)"/>
+            <declare name="nota" type="Real" array="True" size="2"/>
+            <declare name="letra" type="String" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="1" direction="inc" step="1">
+                <output expression="&quot;Digite a nota do aluno: &quot;" newline="True"/>
+                <input variable="nota[i]"/>
+            </for>
+            <output expression="&quot;Digite M para calcular a m&#233;dia aritim&#233;tica ou P para calcular a m&#233;dia ponderada: &quot;" newline="True"/>
+            <input variable="letra"/>
+            <assign variable="media" expression="calcularMedia(nota,letra)"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+    <function name="calcularMedia" type="Real" variable="m">
+        <parameters>
+            <parameter name="n" type="Real" array="True"/>
+            <parameter name="l" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="m" type="Real" array="False" size=""/>
+            <if expression="l == &quot;M&quot;">
+                <then>
+                    <assign variable="m" expression="(n[0] + n[1])/ 2"/>
+                </then>
+                <else>
+                    <if expression="l == &quot;P&quot;">
+                        <then>
+                            <assign variable="m" expression="(0.4 * n[0]) + (0.6 * n[1])"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Digite corretamente o tipo de m&#233;dia que deseja calcular! (M ou P)&quot;" newline="True"/>
+                            <assign variable="m" expression="0"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,8 @@
+Digite o nome do aluno: 
+Gabriel
+Digite a nota da primeira prova: 
+9.0
+Digite a nota da segunda prova: 
+7.5
+Gabriel, sua média final foi 8.25
+

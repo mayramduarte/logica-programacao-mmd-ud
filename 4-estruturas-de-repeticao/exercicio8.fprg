@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-03 06:57:50 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMjY7IjAzOjA1OjAxICI7Mjc5MQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA2OjU3OjUwICI7MTM7Mjk2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elabore um fluxograma que receba um valor inteiro digitado pelo usu&#225;rio e verifique se este se encontra na faixa de zero a 10.&#13;&#10;Mostre mensagem informando se o valor est&#225; dentro da faixa permitida ou se est&#225; fora da faixa."/>
+            <comment text="Modifique o exerc&#237;cio 5 validando a faixa de valores de tal forma que se o valor estiver fora da faixa, o programa volte automaticamente e pe&#231;a para o usu&#225;rio digitar o valor novamente. Dica: use a estrutura de repeti&#231;&#227;o FAZER."/>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <do expression="valor &lt; 0 || valor &gt; 10">
+                <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+                <input variable="valor"/>
+                <if expression="valor &gt;= 0 &amp;&amp; valor &lt;= 10">
+                    <then>
+                        <output expression="&quot;Valor dentro da faixa permitida&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Valor fora da faixa permitida&quot;" newline="True"/>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

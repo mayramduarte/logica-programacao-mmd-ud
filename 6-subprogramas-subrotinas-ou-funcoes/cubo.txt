@@ -1,0 +1,16 @@
+﻿Função Principal
+    ... Criar um subprograma que calcule o valor do cubo de um número e retorne o resultado para o programa principal.
+    Definir Inteiro número
+    Definir Inteiro res
+    
+    Saída "Digite um número inteiro:"
+    Entrada número
+    Atribuir res = calcularCubo(número)
+    Saída res
+Fim
+
+Função calcularCubo (Inteiro n)
+    Definir Inteiro r
+    
+    Atribuir r = n * n * n
+Retornar Inteiro r

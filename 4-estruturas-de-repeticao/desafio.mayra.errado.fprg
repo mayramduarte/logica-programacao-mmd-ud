@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 12:02:40 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDM7IjA3OjM0OjQwICI7Mjc5Ng=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMTI7IjEyOjAyOjQwICI7MjE7Mjk0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elabore um fluxograma usando o Flowgorithm para o seguinte problema:&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;Uma empresa de recrutamento est&#225; cadastrando alguns candidatos a fim de selecionar novos funcion&#225;rios para uma determinada empresa. &#13;&#10;&#13;&#10;Os candidatos selecionados devem atender a pelo menos um dos seguintes crit&#233;rios: &#13;&#10;&#13;&#10;- Ter n&#237;vel superior em qualquer &#225;rea de forma&#231;&#227;o;&#13;&#10;&#13;&#10;- Ser maior de 21 anos e com experi&#234;ncia no servi&#231;o;&#13;&#10;&#13;&#10;- Falar ingl&#234;s ou espanhol.&#13;&#10; &#13;&#10;&#13;&#10;Fazer o cadastro do candidato que ser&#225; composto por: n&#250;mero, nome, idade, experi&#234;ncia (S/N), Sexo(M/F), Fala ingl&#234;s (S/N), Fala espanhol (S/N) &#13;&#10;&#13;&#10;Depois de receber o cadastro imprimir na tela se o candidato foi ou n&#227;o selecionado.&#13;&#10; &#13;&#10;&#13;&#10;Mostrar no final: &#13;&#10;&#13;&#10;A quantidade de pessoas cadastradas &#13;&#10;&#13;&#10;A quantidade de pessoas selecionadas &#13;&#10;&#13;&#10;A m&#233;dia geral de idade dos candidatos (incluindo homens e mulheres)"/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="superior" type="String" array="False" size=""/>
+            <declare name="experiencia" type="String" array="False" size=""/>
+            <declare name="sexo" type="String" array="False" size=""/>
+            <declare name="ingles" type="String" array="False" size=""/>
+            <declare name="espanhol" type="String" array="False" size=""/>
+            <declare name="contCadastrados" type="Integer" array="False" size=""/>
+            <assign variable="contCadastrados" expression="0"/>
+            <declare name="contSelecionados" type="Integer" array="False" size=""/>
+            <assign variable="contSelecionados" expression="0"/>
+            <declare name="contIdades" type="Integer" array="False" size=""/>
+            <assign variable="contIdades" expression="0"/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;N&#250;mero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <output expression="&quot;Nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Idade:&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Ensino superior: S ou N?&quot;" newline="True"/>
+            <input variable="superior"/>
+            <output expression="&quot;Experi&#234;ncia: S ou N?&quot;" newline="True"/>
+            <input variable="experiencia"/>
+            <output expression="&quot;Sexo: M ou F?&quot;" newline="True"/>
+            <input variable="sexo"/>
+            <output expression="&quot;Fala ingl&#234;s: S ou N?&quot;" newline="True"/>
+            <input variable="ingles"/>
+            <output expression="&quot;Fala espanhol: S ou N?&quot;" newline="True"/>
+            <input variable="espanhol"/>
+            <if expression="superior == s || idade &gt; 21 &amp;&amp; experiencia == s&#13;&#10;&amp;&amp; ingles == s || espanhol == s">
+                <then>
+                    <output expression="&quot;Canditato selecionado!&quot;" newline="True"/>
+                    <assign variable="contSelecionados" expression="contSelecionados + 1"/>
+                </then>
+                <else>
+                    <output expression="&quot;Canditado n&#227;o selecionado!&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="contCadastrados" expression="contCadastrados + 1"/>
+            <assign variable="contIdades" expression="contIdades + idade"/>
+            <assign variable="media" expression="contIdades / contCadastrados"/>
+            <output expression="&quot;Total de candidatos cadastrados:&quot;" newline="True"/>
+            <output expression="&quot;Total de canditados selecionados:&quot;" newline="True"/>
+            <output expression="&quot;M&#233;dia da idade dos candidatos:&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

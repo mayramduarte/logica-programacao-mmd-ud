@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-23 12:36:06 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjExOjU1OjU5ICI7MjgwNg=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMjM7IjEyOjM2OjA2ICI7NDE7Mjk1OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Elabore um algoritmo que receba 8 valores reais armazenando-os em um vetor e determine quantos n&#250;meros maiores que 10 est&#227;o presentes no vetor."/>
+            <declare name="A" type="Real" array="True" size="8"/>
+            <declare name="maior" type="Integer" array="False" size=""/>
+            <assign variable="maior" expression="10"/>
+            <declare name="cont" type="Integer" array="False" size=""/>
+            <assign variable="cont" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="7" direction="inc" step="1">
+                <output expression="&quot;Digite o valor para A&quot;&amp;&quot;[&quot;&amp;i&amp;&quot;]&quot;" newline="True"/>
+                <input variable="A[i]"/>
+            </for>
+            <for variable="i" start="0" end="7" direction="inc" step="1">
+                <if expression="maior &lt; A[i]">
+                    <then>
+                        <assign variable="cont" expression="cont + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Quantidade de valores maiores que dez no vetor: &quot; &amp;cont" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

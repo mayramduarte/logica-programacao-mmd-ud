@@ -1,0 +1,15 @@
+﻿Função Principal
+    Definir Real Arranjo nota[4]
+    Definir Inteiro i
+    
+    ... Repetição "para" que recebe os valores do arranjo via teclado.
+    Para i = 0 até 3
+        Saída "Digite a nota do aluno:"
+        Entrada nota[i]
+    Fim
+    
+    ... Repetição "para" que exibe os valores armazenados no arranjo.
+    Para i = 0 até 3
+        Saída nota[i]
+    Fim
+Fim

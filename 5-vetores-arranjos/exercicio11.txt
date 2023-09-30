@@ -1,0 +1,25 @@
+﻿Função Principal
+    ... Elabore um diagrama que receba via teclado 10 valores inteiros e armazene-os em um vetor(arranjo). 
+    ...  
+    ... Percorra o vetor e exiba o valor atual de cada elemento. 
+    ...  
+    ... Em seguida, altere o valor de cada elemento do vetor multiplicando-o por 10. 
+    ...  
+    ... Percorra o vetor e exiba os valores atualizados.
+    Definir Inteiro Arranjo A[10]
+    Definir Inteiro i
+    
+    Para i = 0 até 9
+        Saída "Digite o valor para A"&"["&i&"]"
+        Entrada A[i]
+    Fim
+    Saída "Valores originais digitados do vetor:"
+    Para i = 0 até 9
+        Saída A[i]
+    Fim
+    Saída "Valores do vetor multiplicados por 10 :"
+    Para i = 0 até 9
+        Atribuir A[i] = A[i] * 10
+        Saída A[i]
+    Fim
+Fim

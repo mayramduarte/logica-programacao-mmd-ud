@@ -1,0 +1,27 @@
+﻿Função Principal
+    ...  Construa um algoritmo que utilize um subprograma que retorne o menor de dois valores inteiros.
+    Definir Inteiro Arranjo número[2]
+    Definir Inteiro res
+    Definir Inteiro i
+    
+    Para i = 0 até 1
+        Saída "Digite um número inteiro:"
+        Entrada número[i]
+    Fim
+    Atribuir res = calcularMenor(número)
+    Saída "O menor valor é: " & res
+Fim
+
+Função calcularMenor (Inteiro Arranjo n)
+    Definir Inteiro r
+    
+    Atribuir r = n[0]
+    Definir Inteiro i
+    
+    Atribuir i = 0
+    Para i = 0 até 1
+        Se r > n[i]
+            Atribuir r = n[i]
+        Fim
+    Fim
+Retornar Inteiro r

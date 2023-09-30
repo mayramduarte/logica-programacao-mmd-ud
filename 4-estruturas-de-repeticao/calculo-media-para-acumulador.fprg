@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mayra"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-01 03:46:58 "/>
+        <attribute name="created" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDMtMzA7IjA1OjQ4OjMyICI7Mjc5OQ=="/>
+        <attribute name="edited" value="bWF5cmE7REVTS1RPUC1UNE5EUTJLOzIwMjMtMDQtMDE7IjAzOjQ2OjU4ICI7MjM7Mjk2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Calcular a m&#233;dia das notas de 5 alunos e verificar se est&#227;o aprovados ou reprovados. A m&#233;da para aprova&#231;&#227;o &#233; 7. Mostrar a quantidade total de alunos aprovados e reprovados. Calcular a m&#233;dia da classe."/>
+            <comment text="Acumulador = Acumulador + vari&#225;vel que quer calcular."/>
+            <declare name="nota1" type="Real" array="False" size=""/>
+            <declare name="nota2" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <declare name="acMedias" type="Real" array="False" size=""/>
+            <assign variable="acMedias" expression="0"/>
+            <declare name="mediaClasse" type="Real" array="False" size=""/>
+            <declare name="contAprovados" type="Integer" array="False" size=""/>
+            <assign variable="contAprovados" expression="0"/>
+            <declare name="contReprovados" type="Integer" array="False" size=""/>
+            <assign variable="contReprovados" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;Digite a nota da primeira prova:&quot;" newline="True"/>
+                <input variable="nota1"/>
+                <output expression="&quot;Digite a nota da segunda prova:&quot;" newline="True"/>
+                <input variable="nota2"/>
+                <assign variable="media" expression="(nota1 + nota2) / 2"/>
+                <assign variable="acMedias" expression="Acmedias + media"/>
+                <output expression="&quot;M&#233;dia final do aluno = &quot; &amp; media" newline="True"/>
+                <if expression="media &gt;=7">
+                    <then>
+                        <output expression="&quot;Aprovado!&quot;" newline="True"/>
+                        <assign variable="contAprovados" expression="contAprovados + 1"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Reprovado!&quot;" newline="True"/>
+                        <assign variable="contReprovados" expression="contReprovados + 1"/>
+                    </else>
+                </if>
+            </for>
+            <assign variable="mediaClasse" expression="acMedias / 5"/>
+            <output expression="&quot;M&#233;dia da classe: &quot; &amp; mediaClasse" newline="True"/>
+            <output expression="&quot;Quantidades de alunos aprovados: &quot; &amp; contAprovados" newline="True"/>
+            <output expression="&quot;Quantidades de alunos reprovados: &quot; &amp; contReprovados" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
