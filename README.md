@@ -12,13 +12,12 @@
 
 <h2>Projects (Projetos)</h2>
 
-<<ul>
-
+<!-- <ul>
 <li><a href="" target="_blank"></a></li>
-</ul>
+</ul> -->
 
 <h2>Exercises (Exercícios)</h2>
 
-<ul>
+<!-- <ul>
 <li><a href="" target="_blank"></a></li>
-</ul>
+</ul> -->
