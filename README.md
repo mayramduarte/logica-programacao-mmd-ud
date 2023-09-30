@@ -6,9 +6,11 @@
 
 <h3>Programming Logic</h3>
 
-<p>Colors. Background and Borders. Selectors. Browser Inspector. Advanced Selectors. Specificity Inheritance. Text and Fonts. Google Fonts. Box Model.</p>
+<p>Basic Concepts and Working Environment. Variables and Data Types. Flowchart Design. Data Input and Output. Arithmetic Operations. Control Flow. Loops. Arrays. Functions.</p>
 
-<p>Cores. Background e Bordas. Seletores. Inspetor no Navegador. Seletores Avançados. Especificidade. Herança. Texto e Fontes. Fontes Google. Box Model.</p>
+<p>Conceitos Básicos e Ambiente de Trabalho. Variáveis e Tipos de Dados. Elaboração de Fluxogramas. Entrada e Saída de Dados. Operações Aritméticas. Estruturas de Decisão. Estruturas de Repetição. Vetores Funções.</p>
+
+<p>Software: Flowgorithm.</p>
 
 <h2>Projects (Projetos)</h2>
 
