@@ -6,9 +6,9 @@
 
 <h3>Programming Logic</h3>
 
-<p>Basic Concepts and Working Environment. Variables and Data Types. Flowchart Design. Data Input and Output. Arithmetic Operations. Control Flow. Loops. Arrays. Functions.</p>
+<p>Basic Concepts and Working Environment. Variables and Data Types. Flowchart Design. Data Input and Output. Operators. Control Flow. Loops. Arrays. Functions.</p>
 
-<p>Conceitos Básicos e Ambiente de Trabalho. Variáveis e Tipos de Dados. Elaboração de Fluxogramas. Entrada e Saída de Dados. Operações Aritméticas. Estruturas de Decisão. Estruturas de Repetição. Vetores Funções.</p>
+<p>Conceitos Básicos e Ambiente de Trabalho. Variáveis e Tipos de Dados. Elaboração de Fluxogramas. Entrada e Saída de Dados. Operadores. Estruturas de Decisão. Estruturas de Repetição. Vetores. Funções.</p>
 
 <p>Software: Flowgorithm.</p>
 
