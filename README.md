@@ -1,6 +1,6 @@
 # logica-programacao-mmd-ud
 
-<h1>  Course - Aprenda Lógica da Programação Direto ao Ponto - Udemy - Eduardo Casavella</h1>
+<h1>  Course - Aprenda Lógica de Programação Direto ao Ponto - Udemy - Eduardo Casavella</h1>
 
 <h2>Topics (Conteúdo)</h2>
 
