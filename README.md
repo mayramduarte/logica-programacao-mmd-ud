@@ -1,6 +1,6 @@
 # logica-programacao-mmd-ud
 
-<h1>  Course - Learn Programming Logic Straight to the Point  - Udemy - Eduardo Casavella</h1>
+<h1>Course - Learn Programming Logic Straight to the Point - Udemy - Eduardo Casavella</h1>
 
 <h2>Topics (Conteúdo)</h2>
 
