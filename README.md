@@ -4,7 +4,7 @@
 
 <h2>Topics (Conteúdo)</h2>
 
-<h3>Programming Logic (Lógica da Programação)</h3>
+<h3>Programming Logic (Lógica de Programação)</h3>
 
 <p>Basic Concepts and Working Environment. Variables and Data Types. Flowchart Design. Data Input and Output. Operators. Control Flow. Loops. Arrays. Functions.</p>
 
